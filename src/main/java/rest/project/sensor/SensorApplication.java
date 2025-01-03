@@ -4,7 +4,6 @@ package rest.project.sensor;
 import org.springframework.web.client.RestTemplate;
 import rest.project.sensor.models.Measurement;
 import rest.project.sensor.sevices.MeasurementService;
-import rest.project.sensor.sevices.SensorService;
 
 import java.util.List;
 
