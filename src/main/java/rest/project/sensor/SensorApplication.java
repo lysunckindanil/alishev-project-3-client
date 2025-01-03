@@ -13,7 +13,7 @@ public class SensorApplication {
     public static void main(String[] args) {
         RestTemplate restTemplate = new RestTemplate();
         MeasurementService measurementService = new MeasurementService();
-        measurementService.addRandomMeasurements(restTemplate, SensorService.getTestSensor(), 100);
+//        measurementService.addRandomMeasurements(restTemplate, SensorService.getTestSensor(), 100);
         List<Measurement> measurementList = measurementService.getMeasurements(restTemplate);
         measurementService.showMeasurementsTempsGraph(measurementList, 0, 100);
     }
